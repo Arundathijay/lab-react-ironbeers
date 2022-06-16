@@ -1,13 +1,45 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: rgb(251, 247, 254);
+  align-items: center;
+}
+.home {
+  padding: 50px;
+}
+.navBar {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(78, 106, 227);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home-img {
+  width: 350px;
+  height: 200px;
+  display: block;
+  align-items: center;
+}
+.beers li {
+  list-style: none;
+  align-items: center;
+  display: block;
+  margin-left: 50px;
+}
+.home-beer-img {
+  width: 70px;
+  height: 100px;
+  display: block;
+}
+.beer-name {
+  font-size: 22px;
+  display: block;
+  justify-content: space-between;
+  margin-left: 60px;
+  font-style: none;
+}
+.form {
+  display: table-cell;
+  vertical-align: baseline;
+  margin: auto;
 }
